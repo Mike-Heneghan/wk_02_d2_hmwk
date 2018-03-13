@@ -99,7 +99,7 @@ class TestBear < MiniTest::Test
 
   end
 
-  def test_hunt_for_set_fish__fish_available
+  def test_hunt_for_set_fish__fish_not_available
 
     @bear1.hunt_for_set_fish(@river2, 6)
     river_amount =    @river2.count_fish_in_water()
